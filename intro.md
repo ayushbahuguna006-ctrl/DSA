@@ -23,3 +23,4 @@ garbage collection hits for object in heaps which are not pointed by any adress 
 Stack: Stores local variables, function parameters, and return addresses. It is managed automatically by the compiler and operates on a Last-In-First-Out (LIFO) basis. 
 Heap: Used for dynamic memory allocation (e.g., via malloc or new). It is managed manually by the programmer and persists until explicitly freed. 
 
+
