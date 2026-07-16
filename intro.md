@@ -1,8 +1,8 @@
 types of programming languages:
 
-procedural~series of well structured program to complete task
-functional~writing program in pure functions,first class functions
-object oriented~!revolves around objects,code+data=object
+procedural:series of well structured program to complete task
+functional:writing program in pure functions,first class functions
+object oriented:!revolves around objects,code+data=object
 
 Static vs Dynamic languages:
 Static:
