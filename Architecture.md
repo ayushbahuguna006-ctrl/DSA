@@ -9,6 +9,7 @@ Points about .class file:
 2)we need JVM to run this but note that JVM is platform dependent 
 3)reason why java is platform independent that byte code can run on all operating systems
 
+
 Architecture of Java:
 Java consists of JDK(Java development kit) and inside it is JRE(Java runtime environment) and library classes and inside is JVM(Java virtual machine) and inside it is JIT(Just in time).
 
@@ -33,3 +34,9 @@ Integration libraries , base libraries , JVM
 
 How JVM works?
 JVM verifies the .class file and allocate memory for class variables and default values
+
+JVM execution:
+Interpreter:
+line by line execution and when one method is called many times,it will interpret again and again so JIT comes into use so those methods which are repeated JIT provides direct machine code so re-interpretation is not required . Garbage collection also happens in java.
+
+
