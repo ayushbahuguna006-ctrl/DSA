@@ -26,3 +26,10 @@ Stack: Stores local variables, function parameters, and return addresses. It is 
 Heap: Used for dynamic memory allocation (e.g., via malloc or new). It is managed manually by the programmer and persists until explicitly freed. 
 
 
+identifier and object literals:
+~An identifier is the name given to a variable, method, class, object, or package in Java.Eg.  int age=20 ,here age is the identifier.Eg.void display(){...},here display is an identifier
+~A literal is a fixed value written directly in the program.Eg. int age=20 ,here age is the object literal
+
+
+
+
