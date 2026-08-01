@@ -128,7 +128,7 @@
 // }
 
 
-//In the above example,a*b explicitly exceeds byte range but auto type promotion happens in java whenever operation are performed so integer operation happen even if you would have declared float instead of int it would had given output as float but internal operation would had happened as integer first then output as the datatype declared of the output.
+//In the above example,a*b explicitly exceeds byte range but auto type promotion happens in java whenever operation are performed so integer operation happen even if you would have declared float instead of int it would had given output as float but internal operation would had happened as integer first then output as the datatype declared of the output
 
 
 
