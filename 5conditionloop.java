@@ -194,3 +194,28 @@
 // }
 
 
+// Switch cases~
+
+// Two types ~ simple switch case and nested switch case conditions
+
+// import java.util.Scanner;;
+// public class conditionloop{
+//     public static void main(String[] args) {
+//         Scanner input=new Scanner(System.in);
+//         System.out.println("Enter your fruit");
+//         String fruit=input.next().trim();
+//         switch (fruit) {
+//             case "apple":
+//                 System.out.println("I am apple");
+//                 break;
+//             case "mango":
+//             System.out.println("I am mango");
+//             break;
+//             default:
+                //    System.out.println("Enter valid fruit");
+//                 break;
+//         }
+//     }
+// }
+
+
