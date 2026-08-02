@@ -198,7 +198,7 @@
 
 // Two types ~ simple switch case and nested switch case conditions
 
-// import java.util.Scanner;;
+// import java.util.Scanner;
 // public class conditionloop{
 //     public static void main(String[] args) {
 //         Scanner input=new Scanner(System.in);
