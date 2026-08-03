@@ -173,7 +173,7 @@
 //             }
 //         }
 
-            // Ques2)check if armstrong number
+//         Ques2)check if armstrong number
 
 // import java.util.Scanner;
 
@@ -194,8 +194,6 @@
 //                     }
 
 //                     System.out.println(sum);
-                    
-
 //                 }
 //             }
 
