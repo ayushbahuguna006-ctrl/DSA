@@ -126,7 +126,7 @@
                     //   }
 
         
-        // function/method overloading~
+        // function/method overloading ~ when function execution depends on the datatype of arguments if function names happens to be same
 
 // import java.util.Arrays;
 
@@ -144,6 +144,60 @@
 //                 System.out.println(Arrays.toString(v));
 //             }
 //         }
+
+
+// Questions~
+   
+//     Ques1)check if a number is prime
+
+// import java.util.Scanner;
+
+// public class functions{
+//             public static void main(String[] args) {
+//                 Scanner input=new Scanner(System.in);
+//                 System.out.println("Enter your number");
+//                 int num=input.nextInt();
+//                 boolean ans=isPrime(num);
+//                 System.out.println(ans);
+//             } 
+//             static boolean isPrime(int n){
+//                 if(n<=1){
+//                     return false;
+//                 }
+//                 for(int i=2;i<n;i++){
+//                     if(n%i==0){
+//                         return false;
+//                     }
+//                 }
+//                 return true;
+//             }
+//         }
+
+            // Ques2)check if armstrong number
+
+// import java.util.Scanner;
+
+// public class functions{
+//                 public static void main(String[] args) {
+//                     Scanner input=new Scanner(System.in);
+//                     System.out.println("Enter your number");
+//                     int num=input.nextInt();
+//                     armstrong(num);
+
+//                 }
+//                 static void armstrong(int n){
+//                     int sum=0;
+//                     for(int i=0;n>0;i++){
+//                     int rem=n%10;
+//                     sum+=rem*rem*rem;
+//                     n/=10;
+//                     }
+
+//                     System.out.println(sum);
+                    
+
+//                 }
+//             }
 
 
         
