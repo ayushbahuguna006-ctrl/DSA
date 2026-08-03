@@ -7,7 +7,7 @@
 //         System.out.println(ans);
 //     }
 
-//print type function/method ~ void can be used as there's no returning datatype
+//print type function/method ~ void can be used as there's no returning value in the function
 
 //     static void sum(){
 //     Scanner input=new Scanner(System.in);
@@ -34,34 +34,24 @@
 //     }
 // }
               
+    
+
         //string type return
 
+        // import java.util.Scanner;
         // public class functions{
         //     public static void main(String[] args) {
-        //         String line=greeting();
-        //         System.out.println(line);
+        //         Scanner input=new Scanner(System.in);
+        //         System.out.println("Enter your name");
+        //         String name=input.next().trim();
+        //         String output=greeting(name);
+        //         System.out.println(output);
         //     }
-        //     static String greeting(){
-        //         String greeting="Hello!";
-        //         return greeting;
+        //     static String greeting(String name){
+        //         String message="Hello"+" "+name;
+        //         return message;
         //     }
         // }
-
-        //string type return
-        import java.util.Scanner;
-        public class functions{
-            public static void main(String[] args) {
-                Scanner input=new Scanner(System.in);
-                System.out.println("Enter your name");
-                String name=input.next().trim();
-                String output=greeting(name);
-                System.out.println(output);
-            }
-            static String greeting(String name){
-                String message="Hello"+" "+name;
-                return message;
-            }
-        }
 
         // passing values as arguments
 
@@ -75,4 +65,88 @@
         //         return sum;
         //     }
         // }
+
+        //swap two numbers once inside main class and once inside functions~
+
+        //in java,only call by values happen and not reference so object is not changed on swapping while in function scope as in the function scope the variable points to the same object as the original variable so any changes made in the value swapping will change the other variable not the original variable
+
+        //inside main class ~ In this case numbers will get swapped because the original variable is being altered
+
+        // public class functions{
+        //     public static void main(String[] args) {
+        //         int a=10;
+        //         int b=20;
+        //         int temp=a;
+        //         a=b;
+        //         b=temp;
+        //         System.out.println(a+" "+b);
+        //     }
+        // }
+        
+
+        //inside function then calling in main class ~ In this case numbers will not get swapped as another variable is being introduced in the function scope so that variable is targeting the value along with original if we change function variable it doesn't affect the original one value.
+        
+        // public class functions{
+        //     public static void main(String[] args) {
+        //         int a=10;     //original variable
+        //         int b=20;
+        //         swap(a,b);
+        //         System.out.println(a+" "+b);
+        //     }
+        //     static void swap(int a,int b){   
+        //         int temp=a;
+        //         a=b;
+        //         b=temp;
+        //     }
+        // }
+
+        //int a and int b are function parameters and assigned to value passed from the main class so both variables original as well as the function one points to the same value so any changes made in function variable will not result in the change of the value of the original variable
+         
+
+        //if not call by reference then how to change the actual value ? ~ modify values using arrays
+
+        
+        // Primitive types (int, double, char, etc.) → a copy of the value is passed.
+        // Arrays and objects → a copy of the reference is passed.
+
+
+        // Eg: This changes the original array as the value of array is being modified not the original is being changed
+
+                    //    import java.util.Arrays;
+
+                    //    public class functions{
+                    //     public static void main(String[] args) {
+                    //         int[] arr={1,2,3,4};
+                    //         change(arr);
+                    //         System.out.println(Arrays.toString(arr));
+                    //     }
+                    //     static void change(int nums[]){
+                    //         nums[0]=99;
+                    //     }
+                    //   }
+
+        
+        // function/method overloading~
+
+// import java.util.Arrays;
+
+// public class functions{
+//             public static void main(String[] args) {
+
+//                 demo(2,3,4);   //if int arguments are passed , that demo function will execute which allows integer arguments.for this,function on line 138 will execute
+
+//                 demo("Rahul","Ayush");   //if string arguments are passed,that demo function will execute which allows string arguments.for this,function on line 141 will execute
+//             }
+//             static void demo(int ...v){
+//                 System.out.println(Arrays.toString(v));
+//             }
+//              static void demo(String ...v){
+//                 System.out.println(Arrays.toString(v));
+//             }
+//         }
+
+
+        
+
+       
 

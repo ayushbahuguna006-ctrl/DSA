@@ -15,6 +15,31 @@
 //     }
 // }
 
+//reassiging values in java as values points to the same variable so values ~
+
+// public class main {
+//     public static void main(String[] args) {
+
+//         int a = 10;
+
+//         a = 50;      // Change outside the block
+
+//         {
+//             a = 100; // Change inside the block
+//         }
+
+//         System.out.println(a);
+//     }
+// }
+
+// Output for what happened in above example ~
+
+
+// int a = 10;   → a = 10
+// a = 50;       → a = 50
+// a = 100;      → a = 100
+// print(a);     → 100
+
 
 //types of datatypes in java:
 //primitive & non primitive~primitve are those datatypes which can't be divided further into smaller components & non prim are those which can be divided into further sub  components
