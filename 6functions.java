@@ -107,9 +107,9 @@
 
         
         // Primitive types (int, double, char, etc.) → a copy of the value is passed.
-        // Arrays and objects → a copy of the reference is passed.
+        // Arrays and objects → a copy of the reference is passed.This is the reason array changes values even inside functions as reference copy is passed so reference is same but if whole of the array is tried to replace it won't as reference gets changed on changing values.
 
-
+   
         // Eg: This changes the original array as the value of array is being modified not the original is being changed
 
                     //    import java.util.Arrays;
@@ -124,7 +124,23 @@
                     //         nums[0]=99;
                     //     }
                     //   }
+           
 
+        //Eg: This gives the original array and doesn't change it.
+
+
+                //  import java.util.Arrays;
+
+                    //    public class functions{
+                    //     public static void main(String[] args) {
+                    //         int[] arr={1,2,3,4};
+                    //         change(arr);
+                    //         System.out.println(Arrays.toString(arr));
+                    //     }
+                   //   static void change(int[] nums){
+                //    nums = new int[]{5,6,7};
+                //     }
+           
         
         // function/method overloading ~ when function execution depends on the datatype of arguments if function names happens to be same
 
