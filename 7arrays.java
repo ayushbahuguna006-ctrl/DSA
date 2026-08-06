@@ -193,28 +193,28 @@
 
 //Ques.reverse of an array
 
-import java.util.Arrays;
-public class arrays{
-    public static void main(String[] args) {
-        int[] arr={1,4,8,2};
-        swap(arr,1,2);
-        System.out.println(Arrays.toString(arr));
-        reverse(arr);
-        System.out.println(Arrays.toString(arr));
-}
+// import java.util.Arrays;
+// public class arrays{
+//     public static void main(String[] args) {
+//         int[] arr={1,4,8,2};
+//         swap(arr,1,2);
+//         System.out.println(Arrays.toString(arr));
+//         reverse(arr);
+//         System.out.println(Arrays.toString(arr));
+// }
   
-static void reverse(int[] arr){
-    int index1=0;
-    int index2=arr.length-1;
-    for(int i=0;index1<=index2;i++){
-        swap(arr,index1, index2);
-        index1++;
-        index2--;
-    }
-}
- static void swap(int[] array,int index1,int index2){
-        int  temp=array[index1];
-        array[index1]=array[index2];
-        array[index2]=temp;
-    }
-}
+// static void reverse(int[] arr){
+//     int index1=0;
+//     int index2=arr.length-1;
+//     for(int i=0;index1<=index2;i++){
+//         swap(arr,index1, index2);
+//         index1++;
+//         index2--;
+//     }
+// }
+//  static void swap(int[] array,int index1,int index2){
+//         int  temp=array[index1];
+//         array[index1]=array[index2];
+//         array[index2]=temp;
+//     }
+// }
