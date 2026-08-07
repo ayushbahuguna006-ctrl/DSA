@@ -1,4 +1,4 @@
-//Array ~ collection of single datatypes
+//Array ~ collection of single datatypes , arrays are mutable
 //syntax ~ 
 //   int[] rnos=new int[5];  or  int[] rnos2={23,45,52};   or   int[] rnos=new int[]{5,6,7};
 
