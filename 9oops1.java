@@ -88,13 +88,13 @@
 //Wrapper classes => Wrapper classes are object version of primitve datatypes i.e they are non primitives
 
 // Primitive	Wrapper Class
-// byte	     Byte
+// byte	         Byte
 // short	     Short
 // int	         Integer
-// long	     Long
+// long	         Long
 // float	     Float
 // double	     Double
-// char	     Character
+// char	         Character
 // boolean	     Boolean
 
 
