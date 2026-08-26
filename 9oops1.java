@@ -50,38 +50,38 @@
 
     //Better way of writing constructors with parameterized constructor
 
-import java.util.Arrays;
+// import java.util.Arrays;
 
-public class oops{
-    public static void main(String[] args) {
-        Student kunal=new Student(23.2f, "Ayush", 12);
-        System.out.println(kunal.rollno);
-        Student random=new Student(kunal);
-        System.out.println(random.name);
-    }
-}
-class Student{
-    float marks;
-    String name;
-    int rollno;
-    Student(float mar,String naam,int rno){    //when arguments are given in the static class this constructor is parameter one
-        this.marks=mar;
-        this.name=naam;
-        this.rollno=rno;
-    }
-    Student(){     //when no arguments are given in static class this constructor is called no param constructor
-        this.rollno=13;
-        this.name="Rahul";
-        this.marks=23.3f;
-    }
+// public class oops{
+//     public static void main(String[] args) {
+//         Student kunal=new Student(23.2f, "Ayush", 12);
+//         System.out.println(kunal.rollno);
+//         Student random=new Student(kunal);
+//         System.out.println(random.name);
+//     }
+// }
+// class Student{
+//     float marks;
+//     String name;
+//     int rollno;
+//     Student(float mar,String naam,int rno){    //when arguments are given in the static class this constructor is parameter one
+//         this.marks=mar;
+//         this.name=naam;
+//         this.rollno=rno;
+//     }
+//     Student(){     //when no arguments are given in static class this constructor is called no param constructor
+//         this.rollno=13;
+//         this.name="Rahul";
+//         this.marks=23.3f;
+//     }
 
-     //constructor for assigning  objects values into other objects,here this is random and and other is kunal
-    Student(Student other){
-        this.name=other.name;
-        this.rollno=other.rollno;
-        this.marks=other.marks;
-    }
-}
+//      //constructor for assigning  objects values into other objects,here this is random and and other is kunal
+//     Student(Student other){
+//         this.name=other.name;
+//         this.rollno=other.rollno;
+//         this.marks=other.marks;
+//     }
+// }
 
 
 
