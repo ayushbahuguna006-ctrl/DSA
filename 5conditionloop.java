@@ -138,6 +138,9 @@
 //         if(num==0){
 //             System.out.println("Fibonnaci of num is"+" "+0);
 //         }
+//         else if(num==1){
+//             System.out.println("Fibonnaci of num is"+" "+0);
+//         }
 //         else{
 //             for(int i=2;i<=num;i++){
 //             int c=a+b;

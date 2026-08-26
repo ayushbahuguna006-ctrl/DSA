@@ -82,7 +82,7 @@
 //     }
 // }
 
-// Array-list~used when size of input to be inserted in array is not known
+// Array-list~used when size of input to be inserted in array is not known,new keyword is used to create a new object in the memory and does dynamic memory allocation
 
 //syntax~
     // ArrayList<Integer> list=new ArrayList<>();

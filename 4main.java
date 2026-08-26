@@ -45,7 +45,7 @@
 //primitive & non primitive~primitve are those datatypes which can't be divided further into smaller components & non prim are those which can be divided into further sub  components
 //1 byte=8 bits and 1 bit can have two values 0 or 1 so total number of possible values can be 2 raise to power 8 in 1 byte which is equal to 256 values so -128 to -1 and 0 and 1 to 127 adding total to 256 so java byte can store values only from -128 to 127.
 //Primitive:byte(1 byte),int(4 byte),short(2 byte),long(8 byte),float(4 byte),double(8 byte),boolean(JVM dependent),char(2 byte)
-//non primitive:string.arr,class,object,interfaces,enums
+//non primitive:string,arr,class,object,interfaces,enums
 
 //difference bw both:
 //primitive:store actual value while non prim stores reference values
