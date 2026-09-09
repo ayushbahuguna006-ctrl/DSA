@@ -89,6 +89,18 @@
 
 // public static void main(String[] args)
 
-// public class oops2 {
-    
-// }
+public class oops2 {
+    public static void main(String[] args) {
+        int[] arr={2,3,1};
+        int min=arr[0];
+        int secondmin=arr[1];
+        for(int i=0;i<3;i++){
+            if(arr[i]<min){
+                int temp=min;
+                 min=arr[i];
+                 secondmin=temp;
+            }
+        }
+        System.out.println(secondmin);
+    }
+}
